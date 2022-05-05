@@ -1,0 +1,41 @@
+{
+  "name": "astro-algolia",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Algolia integration for Astro generated sites",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write **/*.ts",
+    "format-check": "prettier --check **/*.ts",
+    "lint": "eslint src/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelJolley/astro-algolia.git"
+  },
+  "keywords": [
+    "astro",
+    "algolia"
+  ],
+  "exports": {
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
+  },
+  "author": "Michael Jolley <mike@baldbeardedbuilder.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MichaelJolley/astro-algolia/issues"
+  },
+  "homepage": "https://github.com/MichaelJolley/astro-algolia#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
+    "astro": "^1.0.0-beta.24",
+    "eslint": "^8.14.0",
+    "prettier": "^2.6.2",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  }
+}
